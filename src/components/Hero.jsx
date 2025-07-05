@@ -1,10 +1,8 @@
-import React from 'react'
-
 const Hero = () => {
   return (
-    <div>
+    <section className="h-screen bg-blue-200">
       Hero
-    </div>
+    </section>
   )
 }
 

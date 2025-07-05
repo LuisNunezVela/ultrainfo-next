@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
+    <div className="h-screen bg-green-200">
       Services
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div>
+    <div className="h-screen bg-yellow-200">
       Work
     </div>
   )
