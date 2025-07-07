@@ -33,6 +33,10 @@
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
+  --color-verde: var(--verde);
+  --color-blanco: var(--blanco);
+  --color-gris: var(--gris);
+  --color-negro: var(--negro);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -44,7 +48,10 @@
 }
 
 :root {
-  
+  --verde: #009D71;
+  --blanco: #FFFFFF;
+  --gris: #F0F0F0;
+  --negro: #3d3b3d;
   --font-geist-sans: "Geist Sans", sans-serif;
   --radius: 0.625rem;
   --background: #ffffff;
@@ -53,7 +60,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #009D71;
+  --primary: #000000; /* color de proyecto - antes negro */
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -81,6 +88,9 @@
 }
 
 .dark {
+  --verde: #009D71;
+  --blanco: #FFFFFF;
+  --gris: #F0F0F0;
   --font-geist-sans: "Geist Sans", sans-serif;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
