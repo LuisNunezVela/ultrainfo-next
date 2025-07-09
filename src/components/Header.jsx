@@ -6,7 +6,7 @@ import Logo from './Logo';
 import NavMobile from './NavMobile';
 
 const links = [
-  {name: 'home', to: 'home'},
+  {name: 'inicio', to: 'home'},
   {name: 'quienes somos', to: 'about'},
   {name: 'servicios', to: 'services'},
   {name: 'contacto', to: 'contact'},]

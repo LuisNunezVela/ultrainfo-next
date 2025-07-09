@@ -19,6 +19,9 @@ module.exports = {
         boxShadow: {
           custom: "0px 4px 54px 10px rgba(18,19,21, 0.06)",
         },
+        backgroundImage: {
+        hero: "url('/Ultrainfo_Hero.png')", // asegúrate que el archivo exista en /public
+      },
       }
     },
   },

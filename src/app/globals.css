@@ -3,6 +3,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+h1,h2,h3,h4,h5,h6 {
+  @apply font-sans font-semibold text-verde;
+}
+
+.h1 {
+  @apply text-3xl md:text-4xl lg:text-7xl font-bold uppercase leading-[1.1];
+}
+
+.p {
+  @apply text-xl md:text-3xl lg:text-3xl leading-[1.1];
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -131,5 +143,10 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+@layer utilities {
+  .bg-hero {
+    background-image: url('/Ultrainfo_Hero.png');
   }
 }
