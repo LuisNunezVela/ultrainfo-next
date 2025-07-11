@@ -36,11 +36,11 @@ const faqItemVariants = {
 const Faq = () => {
   return (
     <section className="pt-16 xl:pt-32">
-      <div className="container mx-auto">
-        <div className="text-center max-w-[540px] mx-auto xl:mb-20">
+      <div className="container mx-auto px-4 xl:px-0">
+        <div className="text-center mx-auto xl:mb-20">
           <Pretitle text="Faq" center />
-          <h2 className="text-3xl mb-3">Got questions? we have got you covered</h2>
-          <p className="mb-11 ma-w-[480px] mx-auto">
+          <h2 className="text-3xl mb-3 ">Got questions? we have got you covered</h2>
+          <p className="mb-11  mx-auto text-justify text-negro text-xl xl:text-2xl xl:text-center">
             From project planning to final touches, we've answered the most common questions to help you make informed decisions.
           </p>
         </div>

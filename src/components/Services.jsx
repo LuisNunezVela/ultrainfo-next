@@ -66,12 +66,12 @@ const serviceData = [
 const Services = () => {
   const [activeTab, setActiveTab] = useState("construction");
   return (
-    <section className="pt-16 xl:pt-32" id="services">
+    <section className="pt-16 xl:pt-32 px-4 xl:px-0" id="services">
       <div className="container mx-auto">
-        <div className="text-center max-w-[540px] mx-auto mb-20">
+        <div className="text-center mx-auto mb-20 ">
           <Pretitle text="Nuestros servicios" center/>
           <h2 className="text-3xl mb-3">Soluciones que Proveemos</h2>
-          <p className="mb-11 max-w-[480px] mx-auto text-negro">Offering tailored construction solutions, from planning to completion, with a focus on quality and innovation.
+          <p className="mb-11 mx-auto text-negro lg:text-2xl text-justify text-xl xl:text-center">Offering tailored construction solutions, from planning to completion, with a focus on quality and innovation.
 
           </p>
         </div>
@@ -102,7 +102,7 @@ const Services = () => {
           })}
         </TabsList>
         {/* Tabs content*/}
-        <div className="flex-1 bg-white shadow-custom h-[490px] p-[30px]">
+        <div className="flex-1 bg-white shadow-custom xl:h-[490px] xl:p-[30px]">
           {serviceData.map((item)=>(
             <TabsContent key={item.name} value={item.name} className="m-0">
               <div className="flex flex-col md:flex-row gap-[30px]">
@@ -118,7 +118,7 @@ const Services = () => {
                 <div>
                   <div>
                     <h3 className="text-2xl mb-6">{item.title}</h3>
-                    <p className="mb-10 text-negro">{item.description}</p>
+                    <p className="mb-10 text-negro text-xl text-justify">{item.description}</p>
                     {/* Lista de servicios */}
                     <ul className="grid grid-cols-2 gap-4 mb-12">
                       {item.serviceList.map((service,index)=>{
