@@ -1,9 +1,16 @@
+"use client"
 import React from 'react'
 import { RiChat1Line, RiMap2Line, RiMapPin2Line, RiSmartphoneLine } from 'react-icons/ri'
 import Socials from './Socials'
 import Form from './Form'
-import InteractiveMap from './InteractiveMap'
 import 'leaflet/dist/leaflet.css'
+import dynamic from 'next/dynamic'
+
+// Evita SSR para Leaflet
+const InteractiveMap = dynamic(() => import('./InteractiveMap'), {
+  ssr: false,
+  loading: () => <p>Cargando mapa...</p>,
+})
 
 const Contact = () => {
   return (
