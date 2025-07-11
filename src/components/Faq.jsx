@@ -7,20 +7,20 @@ import FaqItem from './FaqItem'
 
 const faqItemsData = [
   {
-    title: "How long does a construction project usually take?",
-    description: "TimeLines vary based on project size and complexity.",
+    title: "¿Qué tipo de ecografías analiza la plataforma?",
+    description: "Actualmente nos enfocamos en ecografías obstétricas (embarazo), aunque nuestro sistema está en constante evolución para cubrir más tipos de estudios en el futuro.",
   },
   {
-    title: "Necesito receta médica para realizarme los analisis?",
-    description: "No, sin embbargo, es importante saber qué tienes para saber que tipo de examen sacar.",
+    title: "¿La inteligencia artificial reemplaza al médico?",
+    description: "No. Nuestra plataforma está diseñada como una herramienta de apoyo diagnóstico. El informe generado por IA debe ser revisado y validado por un profesional de la salud.",
   },
   {
-    title: "How long does a construction project usually take?",
-    description: "TimeLines vary based on project size and complexity.",
+    title: "¿Es necesario instalar software?",
+    description: "No. Todo funciona desde nuestra plataforma web segura. Solo necesitas conexión a internet y una cuenta activa para empezar a usar el servicio.",
   },
   {
-    title: "How long does a construction project usually take?",
-    description: "TimeLines vary based on project size and complexity.",
+    title: " ¿Los datos de los pacientes están protegidos?",
+    description: "Sí. Cumplimos con los más altos estándares de seguridad y confidencialidad, incluyendo normativas como HIPAA y GDPR. La información médica está cifrada y protegida.",
   },
 ]
 

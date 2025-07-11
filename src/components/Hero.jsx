@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-l from-black/60 via-black/70 to-black/70 z-10"></div>
       {/* Content container */}
       <div className="container mx-auto h-full flex items-center text-center relative ">
-        <div className="z-20 text-blanco text-center xl:text-left mx-auto xl:mx-0 flex flex-col items-center xl:items-start max-w-[1100px] px-4 xl:px-0">
+        <div className="z-20 text-blanco text-center xl:text-left mx-auto xl:mx-0 flex flex-col items-center xl:items-start max-w-[1100px] px-2 xl:px-0 ">
             <h1 className="h1 text-white mb-10">
               <span className="text-blanco">Análisis de Ultrasonido con inteligencia artificial</span>
             </h1>
