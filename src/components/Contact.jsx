@@ -2,6 +2,8 @@ import React from 'react'
 import { RiChat1Line, RiMap2Line, RiMapPin2Line, RiSmartphoneLine } from 'react-icons/ri'
 import Socials from './Socials'
 import Form from './Form'
+import InteractiveMap from './InteractiveMap'
+import 'leaflet/dist/leaflet.css'
 
 const Contact = () => {
   return (
@@ -20,9 +22,10 @@ const Contact = () => {
                   <RiChat1Line className="text-[28px] text-azul" />
                 </div>
                 <div>
-                  <h5 className="text-[22px] font-semibold font-verde leading-none mb-2">Chat to us</h5>
-                  <p className='mb-4 text-negro'>Our friendly team is here to help.</p>
+                  <h5 className="text-[22px] font-semibold font-verde leading-none mb-2">Conversa con nosotros</h5>
+                  <p className='mb-4 text-negro'>Nuestro equipo está disponible para ayudarte.</p>
                   <p className="font-semibold text-negro">soporte@ultrainfo.com</p>
+                  <p className="font-semibold text-negro">+591 77116600</p>
                 </div>
               </div>
               {/* contact item */}
@@ -32,24 +35,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <h5 className="text-[22px] font-semibold font-verde leading-none mb-2">Oficina</h5>
-                  <p className='mb-4 text-negro'>Come and say hello at our office</p>
+                  <p className='mb-4 text-negro'>Puedes apersonarte por nuestra oficina de Lunes a Viernes de 7 am a 5 pm y Sábados de 7 am 12 pm.</p>
                   <p className="font-semibold text-negro"> 1129 Av. Beni 5to. Anillo, Santa Cruz de la Sierra</p>
                 </div>
               </div>
-              {/* contact item */}
-              <div className='flex items-start gap-[20px]'>
-                <div>
-                  <RiSmartphoneLine
-                   className="text-[28px] text-azul" />
-                </div>
-                <div>
-                  <h5 className="text-[22px] font-semibold font-verde leading-none mb-2">Teléfono</h5>
-                  <p className='mb-4 text-negro'>Lunes a Viernes de 7am a 5pm.</p>
-                  <p className="font-semibold text-negro">+591 77116600</p>
-                </div>
-              </div>
               {/* mapa */}
-
+              <div className="w-full h-[200px]">
+                  <InteractiveMap />
+                </div>
 
             </div>
             </div>
