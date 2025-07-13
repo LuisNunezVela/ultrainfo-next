@@ -1,10 +1,10 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
-// Corrige los íconos por defecto de Leaflet
+// Fix default Leaflet marker icons
 delete L.Icon.Default.prototype._getIconUrl
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon-2x.png',
@@ -13,7 +13,14 @@ L.Icon.Default.mergeOptions({
 })
 
 const InteractiveMap = () => {
+  const [mounted, setMounted] = useState(false)
   const position = [-17.742317, -63.165563]
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) return null // or loading spinner
 
   return (
     <MapContainer

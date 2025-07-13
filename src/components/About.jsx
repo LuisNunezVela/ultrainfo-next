@@ -13,7 +13,7 @@ const About = () => {
               <h2 className="h2 mb-6 lg:text-3xl  text-2xl">
                 Transformando el análisis de ultrasonido con tecnología de vanguardia
               </h2>
-              <p className="mb-11 text-negro lg:text-3xl text-justify text-xl">
+              <p className="mb-11 text-negro lg:text-2xl text-justify text-xl">
                 Somos una empresa especializada en el desarrollo de soluciones basadas en inteligencia artificial para el sector salud. Nuestra plataforma fue creada para agilizar el proceso de análisis de ecografías, ayudando a médicos y clínicas a ofrecer diagnósticos más rápidos, confiables y con menos margen de error.
               </p>
             </div>

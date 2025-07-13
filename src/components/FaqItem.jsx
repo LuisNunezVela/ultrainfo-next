@@ -6,7 +6,7 @@ const FaqItem = ({title,description}) => {
   return (
     <div className="q-full border-b">
       <div className="flex items-center justify-between py-6">
-        <h4 className="max-w-[300px] sm:max-w-md md:max-w-max text-xl">{title}</h4>
+        <h2 className="max-w-[300px] sm:max-w-md md:max-w-max text-xl">{title}</h2>
         <button className="w-[44px] h-[44px] bg-verde flex items-center  justify-center"
         onClick={()=> setIsOpen(!isOpen)}>
             {isOpen ? (

@@ -24,7 +24,7 @@ const Contact = () => {
             {/* contact items */}
             <div className='flex flex-col gap-[20px] mb-16'>
               {/* contact item */}
-              <div className='flex items-start gap-[20px]'>
+              <div className='flex items-start gap-[10px]'>
                 <div>
                   <RiChat1Line className="text-[28px] text-azul" />
                 </div>
@@ -43,19 +43,23 @@ const Contact = () => {
                 <div>
                   <h5 className="text-[22px] font-semibold font-verde leading-none mb-2">Oficina</h5>
                   <p className='mb-4 text-negro'>Puedes apersonarte por nuestra oficina de Lunes a Viernes de 7 am a 5 pm y Sábados de 7 am 12 pm.</p>
-                  <p className="font-semibold text-negro"> 1129 Av. Beni 5to. Anillo, Santa Cruz de la Sierra</p>
+                  <p className="font-semibold text-negro">1129 Av. Beni 5to. Anillo, Santa Cruz de la Sierra</p>
                 </div>
               </div>
               {/* mapa */}
               <div className="w-full h-[200px]">
                   <InteractiveMap />
-                </div>
+              </div>
+              
+              <Socials
+              containerStyles ="flex justify-center gap-[40px]"
+              iconStyles="text-verde text-[20px]" />
 
             </div>
             </div>
             {/* form */}
             <div className="flex-1">
-              <h2 className="mb-3 text-2xl">Request a Quote</h2>
+              <h2 className="mb-3 text-xl">Solicita un servicio</h2>
               <p className="mb-9 text-xl text-negro">
                 Envíanos un mensaje y nos contactaremos lo más pronto posible para brindarte toda la información que desees.
               </p>

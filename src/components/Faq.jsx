@@ -40,7 +40,7 @@ const Faq = () => {
         <div className="text-center mx-auto xl:mb-20">
           <Pretitle text="Faq" center />
           <h2 className="text-3xl mb-3 ">Got questions? we have got you covered</h2>
-          <p className="mb-11  mx-auto text-justify text-negro text-xl xl:text-2xl xl:text-center">
+          <p className="mb-11  mx-auto text-justify text-negro text-xl lg:text-2xl lg:text-center">
             From project planning to final touches, we've answered the most common questions to help you make informed decisions.
           </p>
         </div>
